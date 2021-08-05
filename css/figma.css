@@ -94,7 +94,7 @@ body{
     margin-left: -170px;
     border-radius: 44px;
     padding-top: 13px;
-}*/
+}
 
 
 
@@ -139,4 +139,147 @@ body{
     left: 345px;
     transform: rotate(90deg);
     color: #0cd1bd;
+}*/
+.pechtr{
+    background-color: #333;
+    width: 500px;
+    height: 500px;
+    margin: 200px;
+    border-radius: 30px;
+    position: relative;
+}
+.pechtr .contenr{
+    padding-top: 94px;
+    padding-left: 74px;
+    border: 2px solid #777;
+    width: 450px;
+    height: 265px;
+    position: absolute;
+    top: 75px;
+    right: 25px;
+    border-radius: 25px;
+}
+.pechtr .contenr .member{
+    position: absolute;
+    top: 10px;
+    color: #777;
+    right: 10px;
+}
+.pechtr .contenr .text{ 
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 25px;
+}
+
+.pechtr .contenr .text p {
+    color: #03a9f4;
+    position: absolute;
+    top: -25px;
+    left: 110px;
+}
+.pechtr .contenr .crctr{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    font-size: 20px;
+    color: #777;
+}
+.pechtr .contenr .crctr .red::before{
+    content: '';
+    width: 50%;
+    color: white;
+    height: 50%;
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 94%;
+    padding-right: -3px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 65px;
+    bottom: -4px;
+}
+.pechtr .contenr .crctr .yilo::before{
+    content: '';
+    width: 50%;
+    color: rgb(246, 250, 0);
+    height: 50%;
+    background-color: rgb(251, 255, 0);
+    border: 5px solid rgb(251, 255, 0);
+    border-radius: 94%;
+    padding-right: -3px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 110px;
+    bottom: -4px;
+}
+.pechtr .contenr .crctr .green::before{
+    content: '';
+    width: 50%;
+    color: rgb(246, 250, 0);
+    height: 50%;
+    background-color: rgb(30, 255, 0);
+    border: 5px solid rgb(30, 255, 0);
+    border-radius: 94%;
+    padding-right: -3px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 156px;
+    bottom: -4px;
+}
+.pechtr .contenr .crctr .bluo::before{
+    content: '';
+    width: 50%;
+    color: rgb(246, 250, 0);
+    height: 50%;
+    background-color: rgb(0, 47, 255);
+    border: 5px solid rgb(0, 47, 255);
+    border-radius: 94%;
+    padding-right: -3px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 200px;
+    bottom: -4px;
+}
+.pechtr .contenr .crctr .porply::before{
+    content: '';
+    width: 50%;
+    color: rgb(246, 250, 0);
+    height: 50%;
+    background-color: rgb(247, 0, 255);
+    border: 5px solid rgb(247, 0, 255);
+    border-radius: 94%;
+    padding-right: -3px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 250px;
+    bottom: -4px;
+}
+
+
+.porply .fa-check{
+    position: absolute;
+    left: 257px;
+    bottom: 0px;
+    color: white;
+}
+.pechtr .alex{
+    color: white;
+    position: absolute;
+    top: 345px;
+    right: 40px;
+    background-color: palevioletred;
+    width: 80px;
+    border-radius: 51px;
+    height: 40px;
+}
+.pechtr .alex p{
+    position: absolute;
+    right: 7px;
+    top: -5px;
+}
+.pechtr .alex i{
+    position: absolute;
+    top: 13px;
+    left: 12px;
 }
